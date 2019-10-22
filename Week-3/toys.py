@@ -9,20 +9,26 @@ with functions.
 # write a function that adds 1
 # to the input and prints the result
 def inc(a):
+    int(a)
+    a +=1 
     print(a)
 
 
 # write a function that adds 1
 # to the input and returns the result
 def inc_return(a):
-    return # hint this is incomplete
+    int(a)
+    a +=1
+    return(a)
+    # hint this is incomplete
 
 
 # write a function that adds
 # the two input numbers together
 # and returns the sum
 def sum(a, b):
-    return
+    x = a+b
+    return(x)
 
 
 # write a function that takes two
@@ -30,6 +36,9 @@ def sum(a, b):
 # sum() and then increments the sum
 # using inc_return
 def sum_inc(a, b):
+    int(sum_inc)
+    sum_inc = sum(a,b)
+    inc_return(sum_inc)
     return
 
 
@@ -37,6 +46,8 @@ def sum_inc(a, b):
 # boolean (True or False) for whether 
 # the input number is even
 def is_even(a):
+    int(a)
+    print(a%2==0)
     return
 
 
